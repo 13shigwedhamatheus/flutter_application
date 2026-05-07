@@ -54,7 +54,7 @@ class FocusFlowTimerScreen extends StatefulWidget {
 }
 
 class _FocusFlowTimerScreenState extends State<FocusFlowTimerScreen> {
-  static const int _initialDuration = 25 * 60; // 25 minutes in seconds
+  static const int _initialDuration = 01 * 60; // 25 minutes in seconds
   int _currentDuration = _initialDuration;
   Timer? _timer;
   bool _isRunning = false;
